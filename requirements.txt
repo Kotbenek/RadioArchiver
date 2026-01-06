@@ -1,0 +1,19 @@
+# RadioArchiver - 必須パッケージ
+
+# Web UI / API
+Flask>=2.0.0
+
+# 音声録音
+sounddevice>=0.4.6
+numpy>=1.20.0
+
+# 標準ライブラリ（インストール不要）
+# - tkinter (Python標準GUI、通常はPython本体に含まれる)
+# - wave (Python標準、WAVファイル処理)
+# - threading (Python標準)
+# - configparser (Python標準)
+# - logging (Python標準)
+# - datetime (Python標準)
+# - pathlib (Python標準)
+# - webbrowser (Python標準)
+# - socket (Python標準)
