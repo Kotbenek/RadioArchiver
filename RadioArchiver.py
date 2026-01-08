@@ -409,7 +409,7 @@ class RadioArchiverGUI:
         
         # デフォルト設定
         self.default_config = {
-            'recording_dir': 'C:/RadioArchiver/rec' if sys.platform == 'win32' else '/home/clair/rec',
+            'recording_dir': 'C:/RadioArchiver/rec' if sys.platform == 'win32' else '/tmp/rec',
             'output_dir': 'C:/RadioArchiver/merged' if sys.platform == 'win32' else '/tmp/wav_merged',
             'audio_device': '',
             'sample_rate': '44100',
